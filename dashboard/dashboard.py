@@ -352,3 +352,5 @@ with col16:
     ax.set_ylabel("JTotal Rental")
     plt.tight_layout()
     st.pyplot(fig, use_container_width=True)
+   
+st.caption('Copyright (c) cloudyafilia')
