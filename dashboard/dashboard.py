@@ -106,8 +106,8 @@ def create_rfm_summary(rfm_df):
     }
     return rfm_summary
 
-day_df = pd.read_csv("day_cleaned.csv")
-hour_df = pd.read_csv("hour_cleaned.csv")
+day_df = pd.read_csv("dashboard/day_cleaned.csv")
+hour_df = pd.read_csv("dashboard/hour_cleaned.csv")
 
 day_df['date'] = pd.to_datetime(day_df['date'])
 day_df['weekday'] = day_df['date'].dt.weekday
