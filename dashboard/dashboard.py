@@ -312,7 +312,7 @@ with col10:
     ax.set_ylabel("Total Rental")
     st.pyplot(fig, use_container_width=True)
 
-st.header("Visualisasi RFM Analysis")
+st.header("RFM Analysis")
 with st.container():
         col11, col12, col13 = st.columns(3)
         with col11:
