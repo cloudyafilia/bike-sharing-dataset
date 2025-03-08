@@ -38,10 +38,10 @@ streamlit==1.27.2
 Setelah semua dependensi terinstal, jalankan perintah berikut untuk menjalankan dashboard:
 
 ```bash
-streamlit run app.py
+streamlit run dashboard.py
 ```
 
-Pastikan Anda berada di direktori yang berisi file `app.py` sebelum menjalankan perintah ini.
+Pastikan Anda berada di direktori yang berisi file `dashboard.py` sebelum menjalankan perintah ini.
 
 ## Struktur Direktori
 ```
